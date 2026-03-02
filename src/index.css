@@ -1,0 +1,120 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
+}
+
+body {
+  background-color: rgb(7, 25, 46);
+  color: white;
+
+}
+
+/* STYLE FOR HEADER */
+.header {
+  background-color: rgba(37, 67, 95, 0.973);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0 1rem;
+  border-bottom:  3px solid rgba(243, 156, 6, 0.683);
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: -20px;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/* STYLE FOR MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+#profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.profile-image {
+  background-image: url("./assets/coding image.jpg");
+  width: 50%;
+  height: 50vh;
+  border-radius: 1rem;
+  object-fit: cover;
+    -webkit-mask: linear-gradient(
+    90deg, 
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+
+}
+
+/* STYLE FOR SCROLLER */
+#scroller {
+  max-width: 30rem;
+  gap: 1rem;
+  padding: 0;
+  border: 3px solid rgba(243, 156, 6, 0.683);
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg, 
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask:linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+}
+
+.technologies {
+  display: flex;
+  flex-wrap:nowrap;
+  gap: 1rem;
+  list-style: none;
+  margin-left: 0;
+  width: fit-content;
+  animation: scroll 30s linear infinite;
+}
+
+.technologies li {
+  background-color: rgb(59, 77, 94);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgba(243, 156, 6, 0.683);
+  transform: scale(1.2);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-30% - 1rem));
+  }
+}
+
