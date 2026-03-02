@@ -15,9 +15,11 @@ export default function Home () {
                 <ul className="technologies inner_scroll">
                     <li>HTML5</li>
                     <li>CSS</li>
+                    <li>Tailwind</li>
                     <li>JavaScript</li>
                     <li>C++</li>
                     <li>React</li>
+                    <li>Figma</li>
                     <li>Git</li>
                     <li>GitHub</li>
                 </ul>
