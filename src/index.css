@@ -53,6 +53,7 @@ main {
   width: 50%;
   height: 50vh;
   border-radius: 1rem;
+  transform: scaleX(-1);
   object-fit: cover;
     -webkit-mask: linear-gradient(
     90deg, 
@@ -62,6 +63,13 @@ main {
     transparent
   );
 
+}
+
+.profile-image img {
+  width: 80%;
+  height: 100%;
+  margin-left: 30%;
+  object-fit: cover;
 }
 
 /* STYLE FOR SCROLLER */
