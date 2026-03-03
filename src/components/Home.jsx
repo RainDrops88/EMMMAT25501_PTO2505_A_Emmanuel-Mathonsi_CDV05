@@ -1,3 +1,5 @@
+import ProfilePic from '../assets/profile1.png';
+
 export default function Home () {
     return (
         <main>
@@ -8,7 +10,7 @@ export default function Home () {
                     <p>Software Developer</p>
                 </div>
                 <div className="profile-image">
-                    <img src="" alt="Profile picture" />
+                    <img src={ProfilePic} alt="Profile picture" />
                 </div>
             </section>
             <section id="scroller">
