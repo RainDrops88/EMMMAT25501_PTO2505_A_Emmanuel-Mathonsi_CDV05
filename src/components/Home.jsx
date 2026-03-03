@@ -5,9 +5,9 @@ export default function Home () {
         <main>
             <section id="profile">
                 <div className="profile">
-                    <h4>Hello.</h4>
-                    <h1>I'm Emmanuel Mathonsi.</h1>
-                    <p>Software Developer</p>
+                    <h3>Hello<span className='dot'>.</span></h3>
+                    <h2><span className='line'></span>I'm Emmanuel</h2>
+                    <h1>Software Developer</h1>
                 </div>
                 <div className="profile-image">
                     <img src={ProfilePic} alt="Profile picture" />
