@@ -48,6 +48,29 @@ main {
   align-items: center;
 } 
 
+.profile {
+ margin-left: 10%;
+}
+
+.dot {
+  color: rgba(243, 156, 6, 0.683);
+  font-size: 2rem;
+}
+
+.line {
+  display: inline-block;
+  width: 3rem;
+  height: 3px;
+  background-color: rgba(243, 156, 6, 0.683);
+  margin-right: 0.5rem;
+}
+
+.profile h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  border-bottom: 3px solid rgba(243, 156, 6, 0.683);
+}
+
 .profile-image {
   background-image: url("./assets/coding image.jpg");
   width: 50%;
@@ -55,11 +78,11 @@ main {
   border-radius: 1rem;
   transform: scaleX(-1);
   object-fit: cover;
-    -webkit-mask: linear-gradient(
+  mask: linear-gradient(
     90deg, 
     transparent,
     white 20%,
-    white 80%,
+    white 70%,
     transparent
   );
 
