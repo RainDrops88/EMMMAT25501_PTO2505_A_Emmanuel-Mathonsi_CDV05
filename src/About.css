@@ -19,6 +19,10 @@
     justify-content: space-between;
 }
 
+#about .profile-image img{
+    transform: scaleX(-1);
+}
+
 .work-skills {
     display: flex;
     gap: 1rem;
