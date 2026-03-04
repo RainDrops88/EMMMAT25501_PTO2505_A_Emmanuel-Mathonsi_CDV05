@@ -14,7 +14,7 @@ export default function Home () {
                 </div>
             </section>
             <section id="scroller">
-                <ul className="technologies inner_scroll">
+                <ul className="technologies inner_scroll hover">
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>Tailwind</li>
