@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import resume from '../assets/E. Mathonsi CV.pdf';
 
 export default function Header() {
     return (
@@ -7,8 +8,8 @@ export default function Header() {
             <ul  className="nav-links">
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="#projects">Projects</Link></li>
-                <li><Link to="/resume">My resume</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><a href={resume} download="E. Mathonsi CV.pdf" rel="noopener noreferrer">Download Resume</a></li>
             </ul>
         </header>
     )
