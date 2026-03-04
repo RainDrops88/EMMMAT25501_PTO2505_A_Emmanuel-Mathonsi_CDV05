@@ -166,3 +166,22 @@ li:hover {
 
 
 /* STYLE FOR FOOTER */
+
+footer {
+  background-color: rgba(37, 67, 95, 0.973);
+  justify-items: center;
+  padding: 1rem;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 15rem 10rem;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.socials:hover {
+  transform: scale(1.2);
+}
+
