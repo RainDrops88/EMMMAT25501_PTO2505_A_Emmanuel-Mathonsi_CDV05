@@ -1,0 +1,58 @@
+/* Styles for the About component */
+.about {
+    padding: 2rem;
+    color: rgb(196, 190, 196);
+}
+
+.about h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgba(243, 156, 6, 0.683);
+}
+
+.p-summary {
+    max-width: 60%;
+    line-height: 1.5;
+}
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-skills {
+    display: flex;
+    gap: 1rem;
+    border-top: 3px solid rgba(243, 156, 6, 0.683);
+}
+
+.experience {
+    border-top: 1px solid rgba(125, 123, 121, 0.683);
+}
+
+.duration {
+    font-style: italic;
+    color: rgba(125, 123, 121, 0.765);
+    margin: 5px;
+}
+
+.post {
+    font-size: 1.25rem;
+    margin: 0;
+}
+.company {
+    font-weight: 500;
+    margin: 0;
+}
+.location {
+    margin: 0;
+}
+
+.responsibilities {
+    max-width: 40rem;
+}
+
+#skills {
+    border-left: 1px solid rgba(125, 123, 121, 0.683);
+    margin-left: 15px;
+    padding-left: 1rem;
+}
