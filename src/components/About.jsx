@@ -1,4 +1,4 @@
-
+import profilePicture from "../assets/profile.png";
 export default function About () {
     return (
         <main className="about">
@@ -28,14 +28,14 @@ export default function About () {
                     </p>
                 </div>
                 <div className="profile-image">
-
+                    <img src={profilePicture} alt="Profile Image" />
                 </div>
             </section>
             <div className="work-skills">
                 <section id="work-experience">
                     <h2>Experience</h2>
                     <div className="experience">
-                        <p className="duration">June 20235 - Present</p>
+                        <p className="duration">June 2023 - Present</p>
                         <h3 className="post">Air Traffic Control Trainee</h3>
                         <p className="company">Sout African Air Force</p>
                         <p className="location">Langebaanweg, Wester Cape</p>
