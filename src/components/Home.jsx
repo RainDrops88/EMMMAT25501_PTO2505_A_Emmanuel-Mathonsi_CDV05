@@ -2,7 +2,7 @@ import ProfilePic from '../assets/profile1.png';
 
 export default function Home () {
     return (
-        <main>
+        <main className='home'>
             <section id="profile">
                 <div className="profile">
                     <h3>Hello<span className='dot'>.</span></h3>
