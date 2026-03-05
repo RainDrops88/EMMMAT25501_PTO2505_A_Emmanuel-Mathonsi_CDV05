@@ -192,6 +192,10 @@ footer {
   .header {
     flex-direction: column;
   }
+
+  .header h1 {
+    margin-top: 0;
+  }
   
   .nav-links {
     gap: 2rem;
@@ -233,5 +237,17 @@ footer {
 
  .contact {
     grid-template-columns: 15rem 6rem;
+  }
+}
+
+@media (max-width: 1025px){
+  .profile-image {
+    width: 40%;
+    height: auto;
+  }
+
+  .profile-image img {
+    width: 100%;
+    margin-left: 0;
   }
 }
