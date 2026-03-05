@@ -74,7 +74,7 @@ main {
 }
 
 .profile-image {
-  background-image: url("./assets/coding image.jpg");
+  background-image: url("../assets/coding image.jpg");
   width: 50%;
   height: 60vh;
   border-radius: 1rem;
