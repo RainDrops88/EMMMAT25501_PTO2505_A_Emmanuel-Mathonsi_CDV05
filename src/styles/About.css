@@ -60,3 +60,27 @@
     margin-left: 15px;
     padding-left: 1rem;
 }
+@media (max-width: 480px){
+    .about {
+        padding: 1rem;
+    }
+
+    #about {
+        display: block;
+    }
+
+    .p-summary {
+        max-width: 100%;
+    }
+
+    .work-skills {
+        flex-direction: column;
+    }
+
+    #skills {
+        border-top: 3px solid rgba(243, 156, 6, 0.683);
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}

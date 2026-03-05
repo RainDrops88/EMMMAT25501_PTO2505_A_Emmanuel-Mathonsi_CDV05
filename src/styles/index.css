@@ -36,7 +36,7 @@ a {
 }
 
 /* STYLE FOR MAIN */
-main {
+.home {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -188,3 +188,50 @@ footer {
   transform: scale(1.2);
 }
 
+@media (max-width: 480px){
+  .header {
+    flex-direction: column;
+  }
+  
+  .nav-links {
+    gap: 2rem;
+    margin-bottom: -2px;
+    padding-left: 0;
+  }
+
+  .profile {
+    margin: 0;
+  }
+
+  .profile-image {
+    display: none;
+  }
+
+  .profile-image img {
+    display: none;
+  }
+
+  #scroller {
+    width: 20rem;
+  }
+
+  .technologies {
+    gap: 1rem;
+  }
+
+  .technologies li {
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    padding: 0.2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  #summary {
+    font-size: 1rem;
+  }
+
+ .contact {
+    grid-template-columns: 15rem 6rem;
+  }
+}
