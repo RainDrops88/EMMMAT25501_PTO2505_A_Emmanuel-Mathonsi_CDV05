@@ -1,0 +1,48 @@
+
+
+.project h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(243, 156, 6, 0.683);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.project-card {
+    background-color: rgba(82, 81, 81, 0.541);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.year {
+    color: rgba(125, 123, 121, 0.765);
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech {
+    background-color: rgb(59, 77, 94);
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: underline;
+    text-decoration-color: rgba(243, 156, 6, 0.683);
+}
