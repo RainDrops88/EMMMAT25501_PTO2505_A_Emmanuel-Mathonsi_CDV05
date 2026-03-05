@@ -9,7 +9,7 @@ export default function Header() {
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
-                <li><a href={resume} download="E. Mathonsi CV.pdf" rel="noopener noreferrer">Download Resume</a></li>
+                <li><a href={resume} download="E. Mathonsi CV.pdf" rel="noopener noreferrer">Resume.pdf</a></li>
             </ul>
         </header>
     )
