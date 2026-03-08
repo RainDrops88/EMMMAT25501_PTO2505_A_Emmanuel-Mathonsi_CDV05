@@ -1,3 +1,20 @@
+
+/**
+ * project details such as year, title, brief, technologies, responsibilities and gitHub link.
+ *
+ * @param {Object} props
+ * @param {Object} props.project - The project data object to display.
+ * @param {string} props.project.id - Unique ID of the project.
+ * @param {number} props.project.year - Year of the project.
+ * @param {string} props.project.title - Title of the project.
+ * @param {string} props.project.brief - Project brief.
+ * @param {Array<Object>} props.project.technologies - Technologies used o the project.
+ * @param {string} props.project.responsibilities - The responsibilities of the project.
+ * @param {string} props.project.link - The link to GitHud project.
+ *
+ * @returns {JSX.Element} The rendered project card component.
+ */
+
 export default function Project (props){
     return (
         

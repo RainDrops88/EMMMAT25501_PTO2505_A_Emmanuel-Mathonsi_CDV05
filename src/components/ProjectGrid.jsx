@@ -1,5 +1,16 @@
 import Project from "./Projects";
 
+/**
+ * Displays a grid layout of projects preview cards. Each card includes
+ * project details such as year, title, brief, technologies, responsibilities and gitHub link.
+ *
+ * @param {Object} props
+ * @param {Array<Object>} props.projects - Array of project objects to display.
+ *
+ * @returns {JSX.Element} The rendered grid of project cards.
+ *
+ */
+
 export default function ProjectGrid({projects=[]}){
     if (!projects || projects.length === 0) {
         return <div className="message-container">No projects.</div>;
