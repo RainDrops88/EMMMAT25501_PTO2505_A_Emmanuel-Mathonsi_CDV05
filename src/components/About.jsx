@@ -7,15 +7,13 @@ export default function About () {
                     <h2>Professional Summay</h2>
                 
                     <p>
-                        I am a passionate and dedicated Software Developer with a strong foundation 
-                        in programming.I have hands-on experience in building dynamic and responsive
-                        websites using various programming languages and frameworks,
-                        I am committed to continuous learning and growth in the field of 
-                        Software Development. My goal is to contribute to impactful projects 
-                        that make a difference in people's lives.
-                        I am currently seeking opportunities to apply my skills and knowledge in a collaborative
-                        and innovative environment where I can contribute to the success of the team and
-                        further develop my expertise in software development.
+                        I am a highly motivated and dedicated Software Developer with a strong foundation in programming. 
+                        I have hands-on experience in developing dynamic, responsive websites using a range of programming 
+                        languages and frameworks. Committed to continuous learning and professional growth, I strive to stay 
+                        current with emerging technologies and best practices in software development. My objective is to contribute to 
+                        impactful projects that create meaningful value for users. I am currently seeking opportunities within a collaborative 
+                        and innovative environment where I can apply my skills,
+                        support team success, and further enhance my technical expertise.
                     </p>
                     <p>
                         I am currently employed as an Air Traffic Service Assistant at the South African Air Force
