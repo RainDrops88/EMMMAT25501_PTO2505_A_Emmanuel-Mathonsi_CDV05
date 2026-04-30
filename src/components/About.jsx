@@ -33,9 +33,9 @@ export default function About () {
                 <section id="work-experience">
                     <h2>Experience</h2>
                     <div className="experience">
-                        <p className="duration">April 2019 - Present</p>
-                        <h3 className="post">Air Traffic Control Trainee, Air Traffic Service Assistant</h3>
-                        <p className="company">Sout African Air Force</p>
+                        <p className="duration">April 2018 - Present</p>
+                        <h3 className="post">Air Traffic Control Trainee, Air Traffic Service Assistant, Command Post Assistant</h3>
+                        <p className="company">South African Air Force</p>
                         <ul className="responsibilities">
                             <li>Monitoring air traffic patterns to provide safe and efficient flight operations.</li>
                             <li>Coordinate with pilots and ground staff to relay critical information for operational efficiency.</li>
