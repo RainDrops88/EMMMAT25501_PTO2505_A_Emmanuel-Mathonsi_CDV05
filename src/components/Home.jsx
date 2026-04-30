@@ -4,14 +4,22 @@ export default function Home () {
     return (
         <main className='home'>
             <section id="profile">
-                <div className="profile">
-                    <h3>Hello<span className='dot'>.</span></h3>
-                    <h2><span className='line'></span>I'm Emmanuel</h2>
-                    <h1>Software Developer</h1>
-                </div>
                 <div className="profile-image">
                     <img src={ProfilePic} alt="Profile picture" />
                 </div>
+                <div className="profile">
+                    <h3>Hi<span className='dot'>.</span></h3>
+                    <h3><span className='line'></span>I'm Emmanuel</h3>
+                    <h3>A Frontend Developer dedicated to building innovative,
+                         user-focused solutions to complex challenges. With hands-on experience
+                          across diverse programming languages and frameworks, I bring both 
+                          technical expertise and a strong drive to continuously expand my knowledge
+                           of emerging technologies. My goal is to contribute to impactful projects 
+                           that enhance user experiences and create meaningful value in people’s 
+                           lives
+                    </h3>
+                </div>
+                
             </section>
             <section id="scroller">
                 <ul className="technologies inner_scroll hover">
@@ -27,10 +35,7 @@ export default function Home () {
                 </ul>
             </section>
             <section id="summary">
-                <p>I am a software developer with a passion for creating innovative solutions 
-                    to complex problems. I have experience in various programming languages and 
-                    frameworks, and I am always eager to learn new technologies. My goal is to 
-                    contribute to impactful projects that make a difference in people's lives.</p>
+                
             </section>
 
             
