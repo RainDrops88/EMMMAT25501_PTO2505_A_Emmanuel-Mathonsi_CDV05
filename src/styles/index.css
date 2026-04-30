@@ -6,7 +6,12 @@
 body {
   background-color: rgb(7, 25, 46);
   color: white;
+}
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* STYLE FOR HEADER */
@@ -40,18 +45,28 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 2rem;
+  padding: if(
+    media(max-width: 480px): 1rem;
+    else: 2rem
+  );
 }
 
 /* STYLE FOR HOME */
 #profile {
   display: flex;
+  flex-direction: if(
+    media(max-width: 480px): column;
+    else: row
+  );
   justify-content: space-between;
-  align-items: center;
 } 
 
 .profile {
  margin-left: 10%;
+ width: if(
+  media(max-width: 480px): 100%;
+  else: 50%
+  );
 }
 
 .dot {
@@ -75,8 +90,14 @@ a {
 
 .profile-image {
   background-image: url("../assets/coding image.jpg");
-  width: 50%;
-  height: 60vh;
+  width: if(
+    media(max-width: 480px):100%;
+    else: 50%
+  );
+  height: if(
+    media(max-width: 480px): auto;
+    else: 60vh
+  );
   border-radius: 1rem;
   transform: scaleX(-1);
   object-fit: cover;
@@ -174,6 +195,7 @@ footer {
   justify-items: center;
   padding: 1rem;
   border-top: 3px solid rgba(243, 156, 6, 0.683);
+  margin-top: auto;
 }
 
 .contact{
@@ -182,6 +204,14 @@ footer {
   justify-content: center;
   gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.email:hover {
+  transform: scale(1.2);
+}
+
+.phone:hover {
+  transform: scale(1.2);
 }
 
 .socials:hover {
@@ -207,13 +237,7 @@ footer {
     margin: 0;
   }
 
-  .profile-image {
-    display: none;
-  }
 
-  .profile-image img {
-    display: none;
-  }
 
   #scroller {
     width: 20rem;
@@ -242,7 +266,6 @@ footer {
 
 @media (max-width: 1025px){
   .profile-image {
-    width: 40%;
     height: auto;
   }
 
