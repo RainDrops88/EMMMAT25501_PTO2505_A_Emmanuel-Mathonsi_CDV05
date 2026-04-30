@@ -9,7 +9,7 @@ export default function Header() {
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
-                <li><a href={resume} download="E.Mathonsi Resume.pdf" rel="noopener noreferrer">Resume.pdf</a></li>
+                <li><a href="https://docs.google.com/document/d/1TKJlskvbrC4UlIvwEUAyDw2RRkYGi-hMpJsz1SSqgdY/edit?usp=sharing"  target="_blank">Resume</a></li>
             </ul>
         </header>
     )
