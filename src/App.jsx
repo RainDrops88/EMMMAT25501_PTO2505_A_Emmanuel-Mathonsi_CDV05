@@ -11,7 +11,7 @@ import './styles/App.css'
 function App() {
 
   return (
-    <>
+    <div className="app">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/projects" element={<ProjectGrid projects={projects} />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
 
