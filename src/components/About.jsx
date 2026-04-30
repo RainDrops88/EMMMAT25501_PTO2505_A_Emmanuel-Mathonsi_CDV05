@@ -27,7 +27,7 @@ export default function About () {
                         communication, problem-solving, and decision-making skills, as well as the ability to work effectively under pressure.
                     </p>
                 </div>
-                <div className="profile-image">
+                <div className="about-image">
                     <img src={profilePicture} alt="Profile Image" />
                 </div>
             </section>
@@ -35,22 +35,13 @@ export default function About () {
                 <section id="work-experience">
                     <h2>Experience</h2>
                     <div className="experience">
-                        <p className="duration">June 2023 - Present</p>
-                        <h3 className="post">Air Traffic Control Trainee</h3>
+                        <p className="duration">April 2019 - Present</p>
+                        <h3 className="post">Air Traffic Control Trainee, Air Traffic Service Assistant</h3>
                         <p className="company">Sout African Air Force</p>
-                        <p className="location">Langebaanweg, Wester Cape</p>
                         <ul className="responsibilities">
                             <li>Monitoring air traffic patterns to provide safe and efficient flight operations.</li>
                             <li>Coordinate with pilots and ground staff to relay critical information for operational efficiency.</li>
                             <li>Developd proficiency in air traffic control procedures through rigorous training.</li>
-                        </ul>
-                    </div>
-                    <div className="experience">
-                        <p className="duration">April 2019 - June 2023</p>
-                        <h3 className="post">Air Traffic Service Assistant</h3>
-                        <p className="company">Sout African Air Force</p>
-                        <p className="location">Hoedsruit, Limpopo</p>
-                        <ul className="responsibilities">
                             <li>Liaising with the air traffic controllers and other stakeholders to ensure smooth operations.</li>
                             <li>Assisting in the management of air traffic control operations.</li>
                             <li>Participated in training sessions to develop skills in aviation safety and regulations.</li>
