@@ -79,10 +79,55 @@
     max-width: 40rem;
 }
 
+.education {
+    display: flex;
+    flex-direction: if(
+        media(max-width: 1024px): column;
+        else: row
+    );
+    justify-content:space-between;
+}
+
+.education div {
+    border-top: 1px solid rgba(125, 123, 121, 0.683);
+}
+
+.divider {
+    border-left: if(
+        media(max-width: 1025px): none;
+        else: 1px solid rgba(125, 123, 21, 0.683);
+    );
+}
+
+.qualification {
+    font-size: 1.25rem;
+    margin:0;
+}
+
+.institution {
+    margin:0;
+}
+
 #skills {
     border-left: 1px solid rgba(125, 123, 121, 0.683);
     margin-left: 15px;
     padding-left: 1rem;
+}
+.t-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.t-skills li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.skill-icon {
+    font-size: 1.25rem;
+    color: rgba(243, 156, 6, 0.85);
+    min-width: 1.25rem;
 }
 @media (max-width: 480px){
     .about {
