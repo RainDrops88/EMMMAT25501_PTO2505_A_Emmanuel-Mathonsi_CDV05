@@ -1,3 +1,4 @@
+import { SiJavascript, SiTypescript, SiReact, SiHtml5, SiCss, SiCplusplus, SiGithub, SiFigma, SiTailwindcss } from "react-icons/si";
 import profilePicture from "../assets/profile.png";
 export default function About () {
     return (
@@ -28,8 +29,10 @@ export default function About () {
                 <div className="about-image">
                     <img src={profilePicture} alt="Profile Image" />
                 </div>
+            
             </section>
             <div className="work-skills">
+                <div className="experiance-education">
                 <section id="work-experience">
                     <h2>Experience</h2>
                     <div className="experience">
@@ -46,6 +49,25 @@ export default function About () {
                         </ul>
                     </div>
                 </section>
+                <section id="education">
+                    <h2>Education</h2>
+                    <div className="education">
+                        <div className="education-1">
+                            <p className="duration">April 2025 - April 2026</p>
+                            <h3 className="qualification">Software Development</h3>
+                            <p className="institution">CodeSpace Academy</p>
+                        </div>
+                        <div className="divider"></div>
+                        <div className="education-2">
+                            <p className="duration">January 2011 - December 2014</p>
+                            <h3 className="qualification">Matric/Grade 12</h3>
+                            <p className="institution">M.L. Nkuna High School</p>
+                        </div>
+                    </div>
+                    
+
+                </section>
+                </div>
                 <section id="skills">
                     <div className="p-skills">
                         <h2>Professional Skills</h2>
@@ -62,14 +84,15 @@ export default function About () {
                     <div className="t-skills">
                         <h2>Technical Skills</h2>
                         <ul>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>C++</li>
-                            <li>Git and GitHub</li>
-                            <li>Figma</li>
-                            <li>Tailwind</li>
+                            <li><SiJavascript className="skill-icon" /> JavaScript</li>
+                            <li><SiTypescript className="skill-icon" /> TypeScript</li>
+                            <li><SiReact className="skill-icon" /> React</li>
+                            <li><SiHtml5 className="skill-icon" /> HTML</li>
+                            <li><SiCss className="skill-icon" /> CSS</li>
+                            <li><SiCplusplus className="skill-icon" /> C++</li>
+                            <li><SiGithub className="skill-icon" /> Git and GitHub</li>
+                            <li><SiFigma className="skill-icon" /> Figma</li>
+                            <li><SiTailwindcss className="skill-icon" /> Tailwind</li>
                         </ul>
                     </div>
                 </section>
