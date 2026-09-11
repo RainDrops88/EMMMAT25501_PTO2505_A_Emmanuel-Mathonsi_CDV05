@@ -28,6 +28,7 @@ export default function Home () {
                     <li>Tailwind</li>
                     <li>JavaScript</li>
                     <li>C++</li>
+                    <li>Python</li>
                     <li>React</li>
                     <li>Figma</li>
                     <li>Git</li>

@@ -1,4 +1,4 @@
-import { SiJavascript, SiTypescript, SiReact, SiHtml5, SiCss, SiCplusplus, SiGithub, SiFigma, SiTailwindcss } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiReact, SiPython, SiHtml5, SiCss, SiCplusplus, SiGithub, SiFigma, SiTailwindcss } from "react-icons/si";
 import profilePicture from "../assets/profile.png";
 export default function About () {
     return (
@@ -86,6 +86,7 @@ export default function About () {
                         <ul>
                             <li><SiJavascript className="skill-icon" /> JavaScript</li>
                             <li><SiTypescript className="skill-icon" /> TypeScript</li>
+                            <li><SiPython className="skill-icon" /> Python</li>
                             <li><SiReact className="skill-icon" /> React</li>
                             <li><SiHtml5 className="skill-icon" /> HTML</li>
                             <li><SiCss className="skill-icon" /> CSS</li>
