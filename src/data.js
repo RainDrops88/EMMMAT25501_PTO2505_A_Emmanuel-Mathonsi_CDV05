@@ -29,4 +29,14 @@ export const projects = [
         link: "https://github.com/RainDrops88/EMMMAT25501_PTO2505_A_Emmauel-Mathonsi_JSLPP.git",
     },
 
+    {
+        id: 4,
+        year: 2026,
+        title: "Patrao's Kitchen",
+        brief: "Patrao's Kitchen is a React-based food ordering interface for browsing meals and sides, managing a cart, creating an account, and viewing order history.",
+        technologies: ["HTML", "CSS", "React", "Javascript"],
+        responsibilities: "Design and implement a responsive layout that adapts to different screen sizes, ensuring a seamless user experience on desktops, tablets, and mobile devices. Create visually appealing components to showcase the restaurant's menu items, services, and contact information. Implement smooth navigation and interactive elements to enhance user engagement. Complete the order form functionality, allowing users to submit their orders.",
+        link: "https://github.com/RainDrops88/Patrao-s_Kitchen.git",
+    }
+
 ]
